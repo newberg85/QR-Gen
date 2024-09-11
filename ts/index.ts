@@ -19,7 +19,7 @@ form?.addEventListener("submit", async (event) => {
 
   try {
     const response = await fetch(
-      `http://api.qrserver.com/v1/create-qr-code/?data=${Url}&size=300x300`
+      `https://api.qrserver.com/v1/create-qr-code/?data=${Url}&size=300x300`
     );
 
     const data = response.url;

@@ -22,7 +22,7 @@ form === null || form === void 0 ? void 0 : form.addEventListener("submit", (eve
         return;
     }
     try {
-        const response = yield fetch(`http://api.qrserver.com/v1/create-qr-code/?data=${Url}&size=300x300`);
+        const response = yield fetch(`https://api.qrserver.com/v1/create-qr-code/?data=${Url}&size=300x300`);
         const data = response.url;
         qrImage.innerHTML = `
       <img src="${data}">
