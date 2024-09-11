@@ -1,0 +1,27 @@
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navegate {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#navegate ul {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+#btn-contact {
+    border: none;
+    padding: 1rem;
+    background: #fdc008;
+    border-radius: 8px;
+    cursor: pointer;
+}

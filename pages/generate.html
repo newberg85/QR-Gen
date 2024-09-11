@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar qrcode</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/generate.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <div id="logo">
+                <a href="index.html"><img src="../assets/qrcode logo.svg" alt="" width="200"></a>   
+            </div>
+            <div id="navegate">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Projeto</li>
+                    <li>Suporte</li>
+                </ul>
+                <button id="btn-contact">Contatar</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form id="form">
+                <label class="custom-field one">
+                    <input type="text" placeholder=" " id="qr-url"/>
+                    <span class="placeholder">Digite uma url</span>
+                </label>
+                <button type="submit" id="generate-btn">Gerar QR-code</button>
+            </form>
+        </section>
+
+        <section id="bottom-sec">
+            <div id="qr-image">
+                
+            </div>
+            <a id="download-btn" href="#" download="qrcode.png"><button>Download</button></a>  
+        </section>
+    </main>
+
+    <!-- JS -->
+    <script src="https://kit.fontawesome.com/9e46812515.js" crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
